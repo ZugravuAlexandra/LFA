@@ -1,0 +1,29 @@
+# literele alfabetului
+lit:
+a
+b
+End
+# starile AFD-ului
+stari:
+0, S
+1
+2
+3
+4
+5, F
+End
+# Tranzitiile suportate de AFD
+tranz:
+0, a, 1
+0, b, 2
+1, a, 0
+1, b, 3
+2, b, 4
+2, a, 5
+3, b, 4
+3, a, 5
+4, a, 4
+4, b, 4
+5, a, 5
+5, b, 4
+End
